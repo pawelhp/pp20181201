@@ -1,6 +1,6 @@
 package pl.pp.my_git_pp;
 
-public class Car {
+public class Auto {
     private String brant;
     private String model;
     public String getBrant() {
@@ -19,11 +19,11 @@ public class Car {
         this.model = model;
     }
 
-    public Car(String brant) {
+    public Auto(String brant) {
         this.brant = brant;
     }
 
-    public Car(String brant, String model) {
+    public Auto(String brant, String model) {
         this.brant = brant;
         this.model = model;
     }
