@@ -22,4 +22,9 @@ public class Car {
     public Car(String brant) {
         this.brant = brant;
     }
+
+    public Car(String brant, String model) {
+        this.brant = brant;
+        this.model = model;
+    }
 }
