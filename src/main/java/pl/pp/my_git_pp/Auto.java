@@ -27,4 +27,8 @@ public class Auto {
         this.brant = brant;
         this.model = model;
     }
+
+    public static void main(String[] args) {
+        System.out.println("test start");
+    }
 }
